@@ -3,8 +3,6 @@ FROM ubuntu:latest
 
 RUN apt update && apt upgrade -y && apt install bind9 -y
 
-
-d
 COPY named.conf /etc/bind/
 COPY named.conf.options /etc/bind/
 COPY named.conf.zones /etc/bind/
