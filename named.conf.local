@@ -1,0 +1,31 @@
+
+
+
+
+acl ip_interne { 
+
+	51.77.203.28; 
+	51.77.203.31; 
+	51.77.203.32;
+	localhost;
+
+};
+
+view internal {
+	match-clients { ip_interne; };
+    recursion yes;
+    allow-recursion { ip_interne; };
+    zone "wt12.ephec-ti.be" {
+        type master;
+        file "/etc/bind/db.local.wt12.ephec-ti.be";
+    };
+};
+
+view external {
+    match-clients { any; };
+    zone "wt12.ephec-ti.be" {
+        type master;
+        file "/etc/bind/db.wt12.ephec-ti.be";
+    };
+};
+
