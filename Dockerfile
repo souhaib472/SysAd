@@ -11,5 +11,4 @@ COPY db.local.wt12.ephec-ti.be /etc/bind/
 COPY db.wt12.ephec-ti.be /etc/bind/
 
 EXPOSE 53
-
 CMD named -g
