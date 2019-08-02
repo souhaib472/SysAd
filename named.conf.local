@@ -1,0 +1,31 @@
+
+
+
+
+acl ip_interne { 
+
+	51.77.203.28; 
+	51.77.203.31; 
+	51.77.203.32;
+	localhost;
+
+};
+
+view internal {
+	match-clients { ip_interne; };
+    recursion yes;
+    allow-recursion { ip_interne; };
+    zone "azzouz.ephec-ti.be" {
+        type master;
+        file "/etc/bind/db.local.azzouz.ephec-ti.be";
+    };
+};
+
+view external {
+    match-clients { any; };
+    zone "azzouz.ephec-ti.be" {
+        type master;
+        file "/etc/bind/db.azzouz.ephec-ti.be";
+    };
+};
+
