@@ -12,7 +12,6 @@ azzouz.ephec-ti.be.	IN	SOA	ns.azzouz.ephec-ti.be. he201575@students.ephec.be. (
 
 @	 IN	 NS 	ns
 	IN 	A	 51.77.203.28
-
 azzouz.ephec-ti.be.      IN      NS      ns.azzouz.ephec-ti.be.
 ns.azzouz.ephec-ti.be.   IN      A   51.77.203.28
 
