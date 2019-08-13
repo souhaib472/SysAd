@@ -22,9 +22,9 @@ RUN mkdir /var/www/azzouz.ephec-ti.be/img
 
 RUN mkdir /var/www/intranet.azzouz.ephec-ti.be
 
-COPY Wt/azzouz.html /var/www/azzouz.ephec-ti.be/index.html
-COPY WWt/css/style.css  /var/www/azzouz.ephec-ti.be/css
-COPY WWt/img/bg.jpg /var/www/azzouz.ephec-ti.be/img
+COPY azzouz/azzouz.html /var/www/azzouz.ephec-ti.be/index.html
+COPY azzouz/css/style.css  /var/www/azzouz.ephec-ti.be/css
+COPY azzouz/img/bg.jpg /var/www/azzouz.ephec-ti.be/img
 
 
 COPY b2b/b2b.html /var/www/b2b.azzouz.ephec-ti.be/index.html
