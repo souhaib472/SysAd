@@ -16,5 +16,5 @@ azzouz.ephec-ti.be.      IN      NS      ns.azzouz.ephec-ti.be.
 ns.azzouz.ephec-ti.be.   IN      A   51.77.203.28
 
 
-
+www.azzouz.ephec-ti.be.  IN      A   51.77.203.28
 
