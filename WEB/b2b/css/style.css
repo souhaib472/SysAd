@@ -1,0 +1,62 @@
+
+input {
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: 2px solid #b2b2b2;
+    margin: 30px 5px;
+    color: #b2b2b2;
+    -webkit-transition: .5s ease-out;
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    transition: .5s ease-out;
+}
+
+
+#hero {
+    text-align: center;
+    height: 560px;
+    color: #fff;
+    background: url(../img/bg.jpg) fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#hero .container {padding-top: 70px;}
+
+#hero h1 {
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: .8em;
+    text-shadow: 7px 9px 5px rgba(161, 19, 15, 0.294);
+}
+
+#hero p {text-transform: uppercase;}
+
+#hero p {
+    padding-top: 75px;
+    color: #fff;
+}
+
+.santa {
+    float: right;
+    margin-top: -250px;
+}
+
+#overview {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.col-md-6,
+.col-lg-4 {
+    padding-top: 50px;
+}
+
+#overview img {height: 120px;}
+
+.redoverlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 24, 0, 0.75);
+    position: relative;
+}

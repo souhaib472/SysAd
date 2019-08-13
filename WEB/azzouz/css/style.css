@@ -1,0 +1,145 @@
+
+	body {
+		background: #0f1116;
+	}
+
+	body, span, input, select, textarea {
+		color: #555555;
+		font-family: 'Raleway', sans-serif;
+		font-size: 12pt;
+		font-weight: 300;
+		line-height: 1.65em;
+	}
+
+	a {
+		color: #d84780;
+		text-decoration: underline;
+	}
+
+	strong, b {
+		font-weight: 700;
+	}
+
+	em, i {
+		font-style: italic;
+	}
+
+	p, ul, ol, dl, table, blockquote {
+		margin: 0 0 2em 0;
+	}
+
+	p {
+		line-height: 2em;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		margin: 0;
+		padding: 0;
+		color: inherit;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 700;
+	}
+
+		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+			color: inherit;
+			text-decoration: none;
+		}
+
+	h2 {
+		font-size: 1.5em;
+	}
+
+	h3 {
+		font-size: 1.25em;
+	}
+
+	sub {
+		font-size: 0.8em;
+		position: relative;
+		top: 0.5em;
+	}
+
+	sup {
+		font-size: 0.8em;
+		position: relative;
+		top: -0.5em;
+	}
+
+	hr {
+		border-top: solid 1px #888888;
+		border: 0;
+		margin-bottom: 1.5em;
+	}
+
+	.wrapper.style1 {
+		padding-top: 10em;
+		padding-bottom: 2em;
+		background: url(../img/bg.jpg) no-repeat center top;
+		background-size: cover;
+		background-attachment: fixed;
+		-webkit-backface-visibility: hidden;
+		-webkit-transform: translateZ(0);
+	}
+
+
+
+	#header {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		background: #0F1116;
+		color: #fff;
+		padding: 1.25em 1.25em 1.25em 1.25em;
+		z-index: 100;
+	}
+
+
+	#banner {
+		text-align: center;
+		color: #fff;
+		padding: 0em 4em;
+		margin-bottom: 6em;
+	}
+
+		#banner p {
+			font-size: 1.75em;
+			line-height: 1.75em;
+		}
+
+	#banner strong,
+	#banner a {
+		color: inherit;
+	}
+.button {
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		-o-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		-moz-transition: background-color 0.35s ease-in-out;
+		-webkit-transition: background-color 0.35s ease-in-out;
+		-o-transition: background-color 0.35s ease-in-out;
+		-ms-transition: background-color 0.35s ease-in-out;
+		transition: background-color 0.35s ease-in-out;
+		background: #d84780;
+		border-radius: 6px;
+		border: 0;
+		color: white;
+		cursor: pointer;
+		display: inline-block;
+		padding: 0.75em 1.5em;
+		text-align: center;
+		text-decoration: none;
+		text-transform: uppercase;
+		display: inline-block;
+		font-size: 1.2em;
+		font-weight: 600;
+		color: #FFF !important;
+	}
+.box {
+		padding: 3em 2em;
+		background: #FFF;
+		text-align: center;
+		border-radius: 0px 0px 6px 6px;
+	}
