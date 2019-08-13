@@ -3,7 +3,7 @@ FROM ubuntu:latest
 RUN apt update && apt upgrade -y && DEBIAN_FRONTEND=noninteractive apt install -y apache2 php php-mysql nano 
 RUN a2enmod ssl
 
-COPY WEB/azzouz.ephec-ti.be.conf /etc/apache2/sites-available
+COPY azzouz.ephec-ti.be.conf /etc/apache2/sites-available
 COPY WEB/b2b.azzouz.ephec-ti.be.conf /etc/apache2/sites-available
 COPY WEB/intranet.azzouz.ephec-ti.be.conf /etc/apache2/sites-available
 
