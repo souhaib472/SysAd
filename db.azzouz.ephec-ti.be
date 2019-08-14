@@ -18,6 +18,6 @@ ns.azzouz.ephec-ti.be.   IN      A   51.77.203.28
 
 www.azzouz.ephec-ti.be.  IN      A   51.77.203.28
 
-www.b2b.azzouz.ephec-ti.be.  IN      A   51.77.203.28
+b2b.azzouz.ephec-ti.be.  IN      A   51.77.203.28
 
-www.intranet.azzouz.ephec-ti.be.  IN      A   51.77.203.28
+intranet.azzouz.ephec-ti.be.  IN      A   51.77.203.28
