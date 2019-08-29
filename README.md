@@ -2,9 +2,9 @@
 
 Projet d'administration système pour WoodyToys
 
-##DNS et IP
+## DNS et IP
 
->* **Azzouz Souhaïb** ```vps651910``` ```51.777.203.28```
+* **Azzouz Souhaïb** ```vps651910``` ```51.777.203.28```
 
 ## Schéma Logique
 
